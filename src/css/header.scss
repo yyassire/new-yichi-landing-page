@@ -1,0 +1,39 @@
+.header-link::after {
+  content: "";
+  display: block;
+  height: 1px;
+  opacity: 0.5;
+  background-color: black;
+  margin-top: 5px;
+  width: 0px;
+  transition: width 0.3s;
+}
+.header-link {
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+}
+.header-link-mobile::after {
+  content: "";
+  display: block;
+  height: 1px;
+  opacity: 0.5;
+  background-color: white;
+  margin-top: 5px;
+  width: 0px;
+  transition: width 0.3s;
+}
+.header-link-mobile {
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+}
+a.active {
+  &::after {
+    width: 100%;
+  }
+}

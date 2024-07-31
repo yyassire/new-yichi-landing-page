@@ -1,0 +1,23 @@
+.no_wrap_text {
+  white-space: nowrap;
+  max-height: 390px;
+  letter-spacing: -10px;
+}
+
+.marquee-content span {
+  color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+}
+.marquee-content {
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
