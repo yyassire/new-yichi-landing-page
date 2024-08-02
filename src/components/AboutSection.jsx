@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import "@/css/aboutSection.scss";
-import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import Expectation from "./Expectation";
 function AboutSection() {
