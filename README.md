@@ -50,3 +50,4 @@ animation pages loading
 ////
 barbajs but i will rarely use it
 https://www.youtube.com/watch?v=3QrkCmsfewM&ab_channel=WrongAkram
+https://new-yichi-landing-page.vercel.app/
